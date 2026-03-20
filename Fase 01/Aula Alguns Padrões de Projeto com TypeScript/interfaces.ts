@@ -21,11 +21,6 @@ class Carro implements Veiculo {
     console.log('$(this.marca) $(this.modelo) ligado.');
 
   }
-
-  ligar(): void {
-    this.ligado = true;
-    console.log('$(this.marca) $(this.modelo) ligado.');
-  }
   acelerar(velocidade: number): void {
       if (!this.ligado) {
         console.log('$(this.marca) $(this.modelo) está desligado.');
